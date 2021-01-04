@@ -1,2 +1,2 @@
 # arerickson28.github.io
-Silly Description.
+This could be where I begin to develop a personal webpage

@@ -1,0 +1,79 @@
+.container {
+    width: 1024px ;
+    margin: 0 auto ;
+}
+
+#main-bio {
+    float: left ;
+    width: 70% ;
+    
+}
+
+#bio-name {
+    position: absolute ;
+    top: 330px ;
+    left: 30px ;
+}
+
+#figure {
+    position: relative ;
+}
+
+#contact-info {
+    float: left ;
+    width: 30% ;
+    line-height: 1.5 ;
+}
+
+#bio-image {
+    float: left ;
+    width: 250px ;
+    margin-right: 20px ;
+    margin-top: 10px ;
+}
+/* 
+* {
+    margin: 0 ;
+    padding: 0 ;
+} */
+
+body {
+    margin: 0 ;
+    padding: 0 ;
+    line-height: 150% ;
+    background-color: #efeee7 ;
+    /* background-color: teal; */
+    font-family: "Georgia" ;
+    color: #333333 ;
+
+  
+}
+
+p {
+    font-size: 20px ;
+}
+
+header {
+    background-color: #333333;
+    
+}
+
+h1 {
+    color: #eee ;
+    font-size: 28px ;
+    text-align: center ;
+    padding: 20px ;
+    margin: 0 ;
+      /* * Look at the example on the screen, and eyeball the padding and/or margins and positioning of the text. */
+}
+
+h2 {
+    font-size: 24px ;
+}
+
+a {
+    color: red ;
+    /* color: silver ; */
+}
+    
+    

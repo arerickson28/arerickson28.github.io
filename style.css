@@ -49,6 +49,8 @@ a {
 main {
     display: flex ;
     justify-content: center ;
+    align-items: center ;
+    flex-direction: column ;
 }
 
 #bio {
@@ -164,4 +166,8 @@ a {
 
 #icons {
     margin-top: 15px ;
+}
+
+#codingLangs {
+    margin: 20px ;
 }

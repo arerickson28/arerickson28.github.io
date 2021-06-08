@@ -6,16 +6,11 @@ body {
     background-color: #efeee7 ;
     /* background-color: teal; */
     font-family: "Georgia" ;
-
-
-  
 }
 
 p {
     font-size: 20px ;
 }
-
-
 
 a {
     color: rgb(106, 183, 235) ;
@@ -51,7 +46,33 @@ a {
     align-items: flex-end ;
 }
 
+main {
+    display: flex ;
+    justify-content: center ;
+}
 
+#bio {
+    /* display: flex ;
+    justify-content: center ; */
+    width: 60% ;
+    margin-top: 25px ;
+}
+
+/* #bio p {
+    display: inline-block ;
+} */
+
+
+#bio-pic {
+    width: 250px ;
+    float: left ;
+    margin: 15px ;
+}
+
+
+i {
+   width: 50px ;
+}
 
 h2 {
     margin-right: 75px ;
@@ -60,7 +81,10 @@ h2 {
     color: rgb(106, 183, 235) ;
 }
 
-
+h4 {
+    margin: 0px ;
+    color:rgb(106, 183, 235) ;
+}
 
 h1 {
     margin: 0px ;
@@ -89,4 +113,54 @@ header ul {
 
 header ul li {
     margin: 20px ;
+}
+
+footer {
+    display: flex ;
+    justify-content: center ;
+    background-color: white ;
+    align-items: center ;
+}
+
+i {
+    /* margin: 15px ; */
+    color: rgb(106, 183, 235) ;
+}
+
+#githubIcon {
+    border-radius: 50%;
+}
+
+.icon {
+    margin: 15px ;
+    display: inline ;
+    height: 48px ;
+    /* border-radius: 50% ; */
+    /* padding: 5px ; */
+}
+
+a {
+    height: 48px ;
+}
+
+#linkedinIcon {
+    /* padding: 0px ; */
+    padding-left: 8px ;
+}
+
+/* .icon:hover {
+    box-shadow: inset 0px 0px 8px rgb(106, 183, 235), 0 0 15px rgb(106, 183, 235);
+} */
+
+
+#contact {
+    display: flex ;
+    flex-direction: column ;
+    justify-content: center ;
+    align-items: center ;
+    margin: 15px ;
+}
+
+#icons {
+    margin-top: 15px ;
 }

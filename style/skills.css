@@ -1,4 +1,4 @@
-#icons {
+#displayIcons {
     display: flex ;
     flex-direction: column;
     justify-content: center ;
@@ -15,9 +15,55 @@ main {
 #tutorSkills {
     display: flex ;
     justify-content: center ;
+    margin-top: 60px ;
+    margin-bottom: 25px ;
     
 
 }
-p {
+#displayIcons p {
     width: 60% ;
+    text-align: center;
+}
+
+#tutorSkills p {
+    width: 60% ;
+    text-align: center;
+}
+
+
+h1 {
+    color: rgb(106, 183, 235) ;
+}
+
+h3 {
+    color: green ;
+    margin: 0px ;
+    margin-top: 15px ;
+}
+
+h5 {
+    margin: 0px ;
+}
+
+img {
+    width: 150px ;
+    border-radius: 100% ;
+}
+
+section {
+    display: flex ;
+    flex-direction: column ;
+    align-items: center;
+}
+
+#dataSkills p {
+    font-size: 13px ;
+    margin: 0px ;
+    color: green ;
+}
+
+#webSkills p {
+    font-size: 13px ;
+    margin: 0px ;
+    color: green ;
 }

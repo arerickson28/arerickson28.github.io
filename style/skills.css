@@ -36,7 +36,7 @@ h1 {
 }
 
 h3 {
-    color: green ;
+    /* color: green ; */
     margin: 0px ;
     margin-top: 15px ;
 }
@@ -59,11 +59,15 @@ section {
 #dataSkills p {
     font-size: 13px ;
     margin: 0px ;
-    color: green ;
+    /* color: green ; */
 }
 
 #webSkills p {
     font-size: 13px ;
     margin: 0px ;
-    color: green ;
+    /* color: green ; */
+}
+
+hr {
+    width: 60% ;
 }

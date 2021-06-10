@@ -7,9 +7,22 @@
 
 
 main {
+
+    display: flex ;
+    justify-content: center;
+    margin-top: 20px ;
+    margin-bottom: 20px ;
+    /* display: flex ;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60% ; */
+}
+
+main div {
     display: flex ;
     flex-direction: row;
     justify-content: space-around;
+    width: 60% ;
 }
 
 #tutorSkills {
@@ -70,4 +83,13 @@ section {
 
 hr {
     width: 60% ;
+}
+
+#decorativeSunflower {
+    display: flex ;
+    align-items: center ;
+}
+
+#decorativeSunflower img {
+    width: 250px ;
 }

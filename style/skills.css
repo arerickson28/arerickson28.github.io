@@ -21,9 +21,14 @@ main {
 main div {
     display: flex ;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     width: 60% ;
 }
+
+/* main div section {
+    padding-right: 20px ;
+    padding-left: 20px ;
+} */
 
 #tutorSkills {
     display: flex ;
@@ -61,12 +66,22 @@ h5 {
 img {
     width: 150px ;
     border-radius: 100% ;
+    margin-left: 50px ;
+    margin-right: 50px ;
 }
 
 section {
     display: flex ;
     flex-direction: column ;
     align-items: center;
+}
+
+#dataSkills {
+    margin-right: 20px ;
+}
+
+#webSkills {
+    margin-left: 20px ;
 }
 
 #dataSkills p {

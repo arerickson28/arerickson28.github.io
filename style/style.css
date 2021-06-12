@@ -44,6 +44,7 @@ a {
     display: flex ;
     justify-content: flex-end ;
     align-items: flex-end ;
+    margin-bottom: 20px ;
 }
 
 
@@ -53,7 +54,9 @@ a {
 } */
 
 
-
+h2 {
+    margin: 0px ;
+}
 
 
 i {

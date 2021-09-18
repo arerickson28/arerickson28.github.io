@@ -157,3 +157,12 @@ a {
 #codingLangs {
     margin: 20px ;
 }
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    /* box-shadow: inset 0px 0px 8px rgb(106, 183, 235), 0 0 15px rgb(106, 183, 235); */
+}

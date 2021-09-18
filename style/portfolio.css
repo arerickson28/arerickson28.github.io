@@ -53,9 +53,18 @@ ul {
     list-style-type: "🌻  ";
     margin-top: 50px ;
     margin-bottom: 50px ;
+
 }
 /* .styled li::before {
     content: "🌻" ;
     font-size: 30px ;
+} */
+
+/* .styled {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 700px;
+    width: 75%;
 } */
 

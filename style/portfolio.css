@@ -60,10 +60,6 @@ ul {
     list-style-type: circle;
     margin: 0;
 }
-/* .styled li::before {
-    content: "🌻" ;
-    font-size: 30px ;
-} */
 
 /* .styled {
     display: flex;
@@ -72,4 +68,7 @@ ul {
     height: 700px;
     width: 75%;
 } */
+.projectImg {
+    width: 500px;
+}
 

@@ -41,9 +41,37 @@ h2, h3 {
     width: 100% ;
     display: flex ;
     justify-content: space-around ;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
+.project {
+    width: 600px;
+    height: 500px;
+    border: solid;
+    border-color:rgb(80, 137, 198);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.project h3 {
+    margin: 15px;
+    color:rgb(106, 183, 235)
+}
+
+.project ul {
+    /* border: solid; */
+    padding: 5px;
+    list-style-type: none;
+}
+
+.project img {
+    border: solid;
+}
 
 ul {
     list-style: none ;
@@ -56,13 +84,9 @@ ul {
 
 }
 
-.notStyled li {
+/* .notStyled li {
     list-style-type: circle;
     margin: 0;
-}
-/* .styled li::before {
-    content: "🌻" ;
-    font-size: 30px ;
 } */
 
 /* .styled {
@@ -72,4 +96,11 @@ ul {
     height: 700px;
     width: 75%;
 } */
+.projectImg {
+    width: 500px;
+}
 
+
+h1 {
+   color: rgb(106, 183, 235);
+}

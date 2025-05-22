@@ -91,6 +91,7 @@ section {
     font-size: 13px ;
     margin: 0px ;
     /* color: green ; */
+  
 }
 
 #webSkills p {
@@ -114,4 +115,21 @@ hr {
 
 #codeWars {
     margin-top: 10px;
+}
+
+#circles {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: center;
+    justify-content: flex-start;
+    padding-right: 125px;
+}
+
+#circles img {
+    margin: 15px;
+}
+#main-1 {
+    display: flex;
+    justify-content: flex-start;
 }
